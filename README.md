@@ -12,5 +12,3 @@ desafio front-end proposto pela professora Eirene do KATIE.
 2. Abra o arquivo index.html pelo navegador de sua preferência
 
 <hr>
-
-### Para quem é inscrito: 
