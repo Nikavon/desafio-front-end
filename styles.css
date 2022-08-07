@@ -1,0 +1,120 @@
+.cabecalho {
+  background: var(--sky-a);
+  padding: 1rem 0;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.5rem;
+  color: var(--branco);
+}
+
+.gif-bee {
+  height: 5rem;
+}
+
+.container {
+  padding: 2.5rem 1rem;
+}
+
+.card {
+  background: var(--yellow-a);
+  width: 40rem;
+  height: 26rem;
+  border: 1px solid var(--yellow-a);
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 6rem auto;
+  color: var(--black-a);
+}
+
+header h2 {
+  font-size: 2rem;
+}
+
+.titulo {
+  margin-bottom: 1rem;
+}
+
+.card header {
+  text-align: center;
+}
+
+.valor {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+input,
+select {
+  border: none;
+  border-radius: 0.15rem;
+  height: 1.8rem;
+  width: 100%;
+  background: var(--grey-a);
+  color: var(--black-a);
+}
+
+input {
+    padding: 0.8rem;
+}
+
+.conversao {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+.converter-de,
+.converter-para {
+  width: 100%;
+}
+
+.converter-de {
+  margin-right: 2.5rem;
+}
+
+.converter-para {
+  margin-left: 2.5rem;
+}
+
+button {
+  background: var(--black-a);
+  border: none;
+  border-radius: 0.15rem;
+  width: 100%;
+  height: 2.5rem;
+  cursor: pointer;
+  color: var(--yellow-a);
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: 0.5s;
+  margin-bottom: 1rem;
+}
+
+#resultado {
+    font-weight: bold;
+    color: var(--black-a);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
+
+footer {
+    margin: 1rem 0;
+    color: var(--yellow-a);
+    font-size: 0.70rem;
+    text-align: center;
+    font-style: italic;
+}
